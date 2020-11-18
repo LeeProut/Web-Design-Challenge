@@ -5,8 +5,10 @@ body {
 
 /* navbar changes with screen width */
 @media (min-width: 480px) {
-
+    .navbar bg-info
 }
+
+@media ()
 
 .col-12 {
     font-size: 28px;
@@ -41,14 +43,18 @@ body {
 }*/
 
 
-.nav-item #dropdown {
+/*.nav-item dropdown {
     margin-right: 10px;
     color: grey
-}
+}*/
 
 /*.nav-item {
     margin-right: 2rem;
     color: grey
+}*/
+
+/*.collapse:not(.show) {
+    background: teal
 }*/
 
 h1 {
