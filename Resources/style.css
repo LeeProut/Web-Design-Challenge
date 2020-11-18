@@ -89,7 +89,7 @@ h1 {
     float: left
   }  
 
-
+/*smaller images for index page grid*/  
 #lat-image-viz {
     width: 150px;
     height: 150px;
@@ -114,7 +114,13 @@ h1 {
     float: right
   }  
 
+/*larger images for visualization pages*/  
 #lat-image-solo {
     width: 500px; 
     height: 400px
 }  
+
+#humid-image-solo {
+    width: 500px; 
+    height: 400px
+}
