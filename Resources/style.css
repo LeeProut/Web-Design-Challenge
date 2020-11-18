@@ -15,16 +15,30 @@ body {
     text-align: left;
 }
 
+/*row class styled with padding from the top*/
+.row {
+    padding-top: 30px;
+}
+
 /*
 .col-4 {
     font-size: 28px;
 }
 */
 
+.col-2 {
+    background: #cdcdcd; 
+}
+
+/*.col-12 {
+    background: #cdcdcd; 
+}*/
+
 .navbar-brand {
     padding: 10px;
     background: teal;
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 /*.navbar-brand #bg-secondary {
@@ -61,6 +75,8 @@ h1 {
    color: teal;
    font-size: 28px;
    text-align: left; 
+   padding: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 #figure1 {
@@ -97,3 +113,8 @@ h1 {
     height: 150px;
     float: right
   }  
+
+#lat-image-solo {
+    width: 500px; 
+    height: 400px
+}  
