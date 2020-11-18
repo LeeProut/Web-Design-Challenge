@@ -15,7 +15,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       
-        <a class="navbar-brand bg-info text-white" target="_blank" href="https://leeprout.github.io/Web-Design-Challenge/index.html">Latitude</a>
+        <a class="navbar-brand bg-info text-white" href="index.html">Latitude</a>
 
         <!--button class changes to navbar toggler-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,25 +31,26 @@
               Plots
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" target="_blank" href="https://leeprout.github.io/Web-Design-Challenge/LatTempViz.html">Max Temperature</a>
-              <a class="dropdown-item" target="_blank" href="https://leeprout.github.io/Web-Design-Challenge/LatHumidViz.html">Humidity</a>
-              <a class="dropdown-item" target="_blank" href="https://leeprout.github.io/Web-Design-Challenge/LatCloudViz.html">Cloudiness</a>
-              <a class="dropdown-item" target="_blank" href="https://leeprout.github.io/Web-Design-Challenge/LatWindViz.html">Wind Speed</a>
+              <a class="dropdown-item" href="LatTempViz.html">Max Temperature</a>
+              <a class="dropdown-item" href="LatHumidViz.html">Humidity</a>
+              <a class="dropdown-item" href="LatCloudViz.html">Cloudiness</a>
+              <a class="dropdown-item" href="LatWindViz.html">Wind Speed</a>
             </div>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Comparison</a>
+                <a class="nav-link" href="Comparisons.html">Comparison</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Data</a>
+                <a class="nav-link" href="Data.html">Data</a>
             </li>
         </ul>  
         </div>  
     </nav>  
     <!--create container for the page-->
-    <div class= "container-md">
+  <div class= "container">
       <div class="row">
+
         <!--create div class for columns on the left-->
         <div class="col-md-7 bg-white">
           <h1>Summary: Latitude vs. X</h1>
@@ -75,46 +76,54 @@
       <div class="col-md-1">
       </div>
 
-    <!--create row for right side-->
+    <!--create columns for right side-->
     
         
+      <!--<div class="col-lg-6 my-8 mx-2 p-5 bg-white">-->
       <div class="col-md-4 bg-white">
           <h1>Visualizations</h1>
 
         <hr />
-        <!--creating nested row and columns for 4 images-->    
+        <!--creating nested columns for 4 images-->    
 
-        <div class="row">
+          <!--<div class="col-lg-6 my-8 mx-2 p-5">-->
+          <div class="row">
 
-          <div class="col-md-6">
-            <a target="_blank" href="https://leeprout.github.io/Web-Design-Challenge/LatTempViz.html">
+          <div class="col-md-6 bg-white">
+            <a href="LatTempViz.html">
             <img id="lat-image-viz" src="Resources/assets/images/Fig1.png" alt="City Latitude vs. Temperature">
             </a>
-          </div>
+          </div>  
           
-          <div class="col-md-6">
-            <a target="_blank" href="https://leeprout.github.io/Web-Design-Challenge/LatHumidViz.html"> 
+          
+          <div class="col-md-6 bg-white">
+            <a href="LatHumidViz.html"> 
             <img id="humidity-image-viz" src="Resources/assets/images/Fig2.png" alt="City Latitude vs. Humidity">
             </a>
           </div>
+          
 
-          <div class="col-md-6">
-            <a target="_blank" href="https://leeprout.github.io/Web-Design-Challenge/LatCloudViz.html">
-            <img id="cloudiness-image-viz" src="Resources/assets/images/Fig3.png" alt="City Latitude vs. Cloudiness">
+         
+          <div class="col-md-6 bg-white">
+            <a href="LatCloudViz.html">
+            <img class="img-responsive float-md-left m-2" width="44%" id="cloudiness-image-viz" src="Resources/assets/images/Fig3.png" alt="City Latitude vs. Cloudiness">
+            </a>
+          </div>  
+          
+
+          <div class="col-md-6 bg-white">
+            <a href="LatWindViz.html">  
+            <img class="img-responsive float-md-right m-2" width="44%" id="windspeed-image-viz" src="Resources/assets/images/Fig4.png" alt="City Latitude vs. Wind Speed">
             </a>
           </div>
 
-          <div class="col-md-6">
-            <a target="_blank" href="https://leeprout.github.io/Web-Design-Challenge/LatWindViz.html">  
-            <img id="windspeed-image-viz" src="Resources/assets/images/Fig4.png" alt="City Latitude vs. Wind Speed">
-            </a>
-          </div>
-
-        </div>
+        
 
       </div>
 
-    </div>
+      </div>
+
+  </div>
 
   <!--Javascript plugins from Bootstrap-->  
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
