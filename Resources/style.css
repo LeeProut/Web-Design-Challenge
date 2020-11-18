@@ -8,6 +8,16 @@ body {
 
 }
 
+.col-12 {
+    font-size: 28px;
+    text-align: left;
+}
+
+/*
+.col-4 {
+    font-size: 28px;
+}
+*/
 
 .navbar-brand {
     padding: 10px;
@@ -15,18 +25,69 @@ body {
     color: white;
 }
 
-.nav-item dropdown {
+/*.navbar-brand #bg-secondary {
+    padding: 10px;
+    background: teal;
+    color: white;
+}*/
+
+/*.nav justify-content-end {
+    color: grey
+}*/
+
+/*.nav-3right {
+    color: grey; 
+    float: inline, right
+}*/
+
+
+.nav-item #dropdown {
     margin-right: 10px;
     color: grey
 }
 
-.nav-item {
-    margin-right: 5px;
+/*.nav-item {
+    margin-right: 2rem;
     color: grey
-}
+}*/
 
 h1 {
    color: teal;
    font-size: 28px;
    text-align: left; 
 }
+
+#figure1 {
+    position: relative;
+  }
+
+#lat-image {
+    width: 200px;
+    height: 200px;
+    float: left
+  }  
+
+
+#lat-image-viz {
+    width: 150px;
+    height: 150px;
+    float: left
+  } 
+
+#humidity-image-viz {
+    width: 150px;
+    height: 150px;
+    float: right
+  }  
+
+#cloudiness-image-viz {
+    width: 150px;
+    height: 150px;
+    float: left
+  }  
+
+#windspeed-image-viz  {
+    width: 150px;
+    height: 150px;
+    float: right
+  }  
