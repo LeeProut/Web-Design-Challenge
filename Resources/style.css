@@ -79,6 +79,14 @@ h1 {
    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
+h3 {
+    color: teal;
+    font-size: 18px;
+    text-align: center; 
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif 
+}
+
 #figure1 {
     position: relative;
   }
@@ -129,3 +137,29 @@ h1 {
     width: 500px; 
     height: 400px
 }
+
+#wind-image-solo {
+    width: 500px; 
+    height: 400px
+}
+
+#lat-image-comp {
+    width: 500px; 
+    height: 400px
+}
+
+#humidity-image-comp {
+    width: 500px; 
+    height: 400px
+}
+
+#cloudiness-image-comp {
+    width: 500px; 
+    height: 400px
+}
+
+#windspeed-image-comp {
+    width: 500px; 
+    height: 400px
+}
+
