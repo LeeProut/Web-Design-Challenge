@@ -39,36 +39,6 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-/*.navbar-brand #bg-secondary {
-    padding: 10px;
-    background: teal;
-    color: white;
-}*/
-
-/*.nav justify-content-end {
-    color: grey
-}*/
-
-/*.nav-3right {
-    color: grey; 
-    float: inline, right
-}*/
-
-
-/*.nav-item dropdown {
-    margin-right: 10px;
-    color: grey
-}*/
-
-/*.nav-item {
-    margin-right: 2rem;
-    color: grey
-}*/
-
-/*.collapse:not(.show) {
-    background: teal
-}*/
-
 h1 {
    color: teal;
    font-size: 28px;
@@ -141,6 +111,7 @@ h3 {
     height: 400px
 }
 
+/*styling for images on comparison page*/
 #lat-image-comp {
     width: 500px; 
     height: 400px
@@ -161,3 +132,33 @@ h3 {
     height: 400px
 }
 
+/*experiments with navbar styling*/
+/*.navbar-brand #bg-secondary {
+    padding: 10px;
+    background: teal;
+    color: white;
+}*/
+
+/*.nav justify-content-end {
+    color: grey
+}*/
+
+/*.nav-3right {
+    color: grey; 
+    float: inline, right
+}*/
+
+
+/*.nav-item dropdown {
+    margin-right: 10px;
+    color: grey
+}*/
+
+/*.nav-item {
+    margin-right: 2rem;
+    color: grey
+}*/
+
+/*.collapse:not(.show) {
+    background: teal
+}*/
